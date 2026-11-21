@@ -1,29 +1,31 @@
 # Báo cáo cá nhân — Ngày 11
-Họ tên:               Mã học viên:  
+Họ tên: Phạm Quang Nam               Mã học viên: 03111  
 Phiên bản CVAT (Help → About):  
 Guideline: Road v1.0    Lần nộp (`revision` trong manifest):  
-Thời điểm export (ngày giờ trên CVAT):    Số lần nộp lại sau Rework:  
+Thời điểm export (ngày giờ trên CVAT): 00h00   Số lần nộp lại sau Rework: 00  
 
 ## 1. Kiểm project
 | Mục | Đúng như guideline Road v1.0? | Ghi chú |
 | --- | --- | --- |
-| 6 label, đúng kiểu |  |  |
-| Thuộc tính và giá trị |  |  |
-| 4 tag ảnh |  |  |
-Cách kết thúc polyline trên bản CVAT này:  
-Cách đặt tag ảnh trên bản CVAT này:  
+| 6 label, đúng kiểu | đúng như guideline  |  |
+| Thuộc tính và giá trị | đúng như guideline |  |
+| 4 tag ảnh | đúng như guideline  |  |
+Cách kết thúc polyline trên bản CVAT này: ấn N
+Cách đặt tag ảnh trên bản CVAT này: di chuyển con trỏ chuột ra icon tag và ấn vào nó, chọn kiểu tag rồi ấn [+] để tạo
 
 ## 2. Số lượng đã gán
 | Task | Ảnh | lane | road_curb | crosswalk | drivable | traffic_light | traffic_sign |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| front | 12 |  |  |  |  |  |  |
-| front-extra (đã làm __ / 4) |  |  |  |  |  |  |  |
+| front | 12 | 48 |  |  |  |  |  |
+| front-extra (đã làm _4 / 4) |  |  |  |  |  |  |  |
 | fisheye | 8 |  |  |  |  |  |  |
-| fisheye-extra (đã làm __ / 4) |  |  |  |  |  |  |  |
+| fisheye-extra (đã làm 0 / 4) |  |  |  |  |  |  |  |
 
 ## 3. Bảng ca khó
 | Ảnh | Nhãn | Phân vân giữa | Đã chọn | Lý do |
 | --- | --- | --- | --- | --- |
+
+Không có ca quá khó 
 
 ## 4. Phiếu QC 1 nhận được
 Bạn kiểm lô của tôi:  Quyết định nhận được:  
@@ -53,5 +55,7 @@ Nhãn của bạn đi vào model ở đâu? Chọn một lỗi đã sửa và n�
 Trả lời 3 câu:
 
 1. Năm số x đó chính là đích mà một model row-anchor học cho vạch này. Nếu bạn dừng polyline sớm 40 px, hàng nào đổi thành "không có làn"?
+ 
 2. So với bạn được kiểm (cùng ảnh): ở hàng 720 và hàng 560, hai bạn lệch nhau bao nhiêu pixel? Lệch ở hàng nào ảnh hưởng LKA nhiều hơn (slide 25)?
-3. Nếu polyline vẽ từ xa về gần (ngược quy tắc 2), cách tính trên có đổi không? Script nào sẽ gặp khó?
+3. 
+4. Nếu polyline vẽ từ xa về gần (ngược quy tắc 2), cách tính trên có đổi không? Script nào sẽ gặp khó?
