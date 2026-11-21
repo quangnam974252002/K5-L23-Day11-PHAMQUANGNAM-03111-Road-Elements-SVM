@@ -10,6 +10,7 @@ Thời điểm export (ngày giờ trên CVAT): 00h00   Số lần nộp lại s
 | 6 label, đúng kiểu | đúng như guideline  |  |
 | Thuộc tính và giá trị | đúng như guideline |  |
 | 4 tag ảnh | đúng như guideline  |  |
+
 Cách kết thúc polyline trên bản CVAT này: ấn N
 Cách đặt tag ảnh trên bản CVAT này: di chuyển con trỏ chuột ra icon tag và ấn vào nó, chọn kiểu tag rồi ấn [+] để tạo
 
